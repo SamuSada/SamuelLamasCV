@@ -26,6 +26,14 @@
         "ubicacion": "A Coruña, España",
         "fechaInicio": "",
         "fechaFin": "2023"
+      },
+      {
+        "nivelTitulo": "Certificado",
+        "titulo": "Programación Web - Full Stack",
+        "institucion": "HACKABOSS",
+        "ubicacion": "A Coruña, España",
+        "fechaInicio": "",
+        "fechaFin": "2024"
       }
 
     ],
@@ -40,6 +48,28 @@
         "responsabilidades": [
           "Camarero en barra",
           "Ayuda en comedor"
+        ]
+      },
+      {
+        "puesto": "Mozo de almacén",
+        "empresa": "Recambios Barreiro",
+        "ubicacion": "Polígono industrial de Bergondo, España",
+        "fechaInicio": "",
+        "fechaFin": "2021",
+        "responsabilidades": [
+          "Reparto",
+          "Almacén"
+        ]
+      },
+      {
+        "puesto": "Repartidor",
+        "empresa": "La Biela",
+        "ubicacion": "Polígono industrial de Bergondo, España",
+        "fechaInicio": "",
+        "fechaFin": "2015",
+        "responsabilidades": [
+          "Reparto",
+          "Cocina"
         ]
       }
     ]
