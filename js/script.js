@@ -6,16 +6,6 @@ function cargarDatos() {
       .catch(error => handleError('Error al cargar los datos:', error));
 }
 
-// Función para mostrar datos
-function mostrarDatos(data) {
-  mostrarDatosPersonales(data.datosPersonales);
-  mostrarSobreMi(data.sobreMi);
-  mostrarListaEstudios('listaEstudios', data.estudios, ['nivelTitulo', 'titulo', 'institucion', 'fechaFin']);
-  mostrarListaConocimientos('listaConocimientos', data.conocimientos, 'materia', 'nivel');
-  mostrarListaIdiomas('listaIdiomas', data.idiomas, 'idioma', 'nivel');
-  mostrarExperienciaLaboral(data.experienciaLaboral);
-}
-
 // Función Datos Personales
 function mostrarDatosPersonales(datosPersonales) {
   document.getElementById('nombre').innerText = 'Nombre: ' + datosPersonales.nombre;
@@ -23,7 +13,7 @@ function mostrarDatosPersonales(datosPersonales) {
   document.getElementById('telefono').innerText = 'Teléfono: ' + datosPersonales.telefono;
 }
 
-// Función para mostrar la sección "Sobre Mí"
+// Función Sobre Mí
 function mostrarSobreMi(sobreMi) {
   document.getElementById('sobreMi').innerText = sobreMi.descripcion;
 }
@@ -72,7 +62,6 @@ function mostrarListaIdiomas(idLista, idiomas) {
   });
 }
 
-
 // Función Experiencia Laboral
 function mostrarExperienciaLaboral(experienciaLaboral) {
   const lista = document.getElementById('listaExperiencia');
@@ -83,13 +72,30 @@ function mostrarExperienciaLaboral(experienciaLaboral) {
   });
 }
 
+// Función para mostrar los datos en cada Section
+function mostrarDatos(data) {
+  mostrarDatosPersonales(data.datosPersonales);
+  mostrarSobreMi(data.sobreMi);
+  mostrarListaEstudios('listaEstudios', data.estudios, ['nivelTitulo', 'titulo', 'institucion', 'fechaFin']);
+  mostrarListaConocimientos('listaConocimientos', data.conocimientos, 'materia', 'nivel');
+  mostrarListaIdiomas('listaIdiomas', data.idiomas, 'idioma', 'nivel');
+  mostrarExperienciaLaboral(data.experienciaLaboral);
+}
+
 // Mostrar/Ocultar Footer
 document.getElementById("toggleFooter").addEventListener("click", function() {
   var footer = document.getElementById("footer");
   footer.classList.toggle("show");
+
+  var body = document.body;
+
+  // Verificar si el footer se está mostrando
+  if (footer.classList.contains("show")) {
+      body.style.overflowY = "hidden";
+  } else {
+      body.style.overflowY = "auto";
+  }
 });
-
-
 
 // Cargar datos al cargar la página
 window.onload = cargarDatos;
