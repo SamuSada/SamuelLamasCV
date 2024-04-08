@@ -11,7 +11,7 @@
 <body class="dark-theme">
     <div class="container">
         <header>
-            <h1>Mi Currículum</h1>
+            <h1></h1>
         </header>
         <main>
             <section class="datosPersonales">
@@ -45,11 +45,22 @@
         <button id="toggleFooter">Contacto</button>
         <footer id="footer">
             <div class="contacto">
-                <h2>Información de Contacto</h2>
-                <p>Teléfono: 617300021</p>
-                <p>Correo electrónico: samusada95@gmail.com</p>
-                <p>Dirección: A Coruña, España</p>
-
+                <h2>Formulario de Contacto</h2>
+                <form class="formulario" action="#" method="POST">
+                    <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                    </div>
+                    <button class="submit" type="submit">Enviar</button>
+                </form>
                 <!-- Iconos de redes sociales -->
                 <div class="redes-sociales">
                     <a href="https://www.linkedin.com/in/tu-perfil-linkedin" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>

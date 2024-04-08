@@ -30,18 +30,26 @@ section h2 {
 }
 
 section p, ul {
-  margin: 0 10% 0 10%;
+  margin: 0 2vh 0 2vh;
   text-align: justify;
   line-height: 30px;
   padding-left: 0px;
+  border: 1px solid;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-h1, h2 {
+h1, h2, p {
   color: #fff;
 }
 
+/* Datos personales */
+.datosPersonales {
+  margin-top: 100px;
+}
+
 .img-curriculum {
-  max-width: 33%;
+  max-width: 50%;
   height: auto;
   border-radius: 10px;
   object-fit: cover; /* Ajustar la imagen dentro del contenedor manteniendo su relación de aspecto */
@@ -50,10 +58,54 @@ h1, h2 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agregar una sombra suave */
 }
 
-ul {
+.detalle {
+  margin-top: 0px;
+}
+
+.detalle p {
+  text-align: center;
+  border: none;
+}
+
+/* Sobre mi */
+.sobreMi p{
+ border: none;
+ text-align: center;
+}
+
+/* Estudios */
+
+.estudios ul{
   list-style: none;
+  border: none;
+}
+
+.estudios ul li{
+  border: 1px solid;
+  padding-left: 2px;
+  padding-right: 2px;
   text-align: center;
 }
+
+/* Experiencia Laboral */
+.experienciaLaboral {
+  margin-bottom: 50px;
+}
+
+#listaExperiencia {
+  border: none;
+}
+
+#listaExperiencia li {
+  margin-top: 25px;
+  list-style: none;
+}
+
+#listaExperiencia li ul li {
+  margin-top: 0px;
+  text-align: center;
+}
+
 
 /* Estilos para el footer */
 #footer {
@@ -73,10 +125,67 @@ ul {
 }
 
 .contacto {
-  max-width: 600px;
   margin: 0 auto;
 }
 
+.contacto h2 {
+  margin-bottom: 50px;
+}
+
+/* Formulario */
+.contacto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+}
+
+.formulario {
+  width: 50%;
+}
+
+.form-group {
+  margin-left: 0px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.form-group input, textarea {
+  background-color: #333;
+  color: white;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.submit {
+  margin: auto;
+  display: block;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #666;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* redes */
 .redes-sociales {
   margin-top: 20px;
 }
