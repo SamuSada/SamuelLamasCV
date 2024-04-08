@@ -35,6 +35,7 @@ section p, ul {
   line-height: 30px;
   padding-left: 0px;
   border: 1px solid;
+  border-radius: 6px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -70,21 +71,28 @@ h1, h2, p {
 /* Sobre mi */
 .sobreMi p{
  border: none;
- text-align: center;
+ text-align: justify;
+ margin-left: 10%;
+ margin-right: 10%;
 }
 
 /* Estudios */
 
 .estudios ul{
   list-style: none;
-  border: none;
+  border: 1px solid;
 }
 
 .estudios ul li{
-  border: 1px solid;
+  border-bottom: 0.5px solid;
+  border-radius: 10px auto;
   padding-left: 2px;
   padding-right: 2px;
   text-align: center;
+}
+
+.estudios ul :nth-last-child(1) {
+  border-bottom: none;
 }
 
 /* Experiencia Laboral */
@@ -103,7 +111,7 @@ h1, h2, p {
 
 #listaExperiencia li ul li {
   margin-top: 0px;
-  text-align: center;
+  text-align: justify;
 }
 
 
