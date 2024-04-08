@@ -17,7 +17,7 @@
         "institucion": "CIFP Imaxe e Son",
         "ubicacion": "A Coruña, España",
         "fechaInicio": "",
-        "fechaFin": "2021"
+        "fechaFin": 2021
       },
       {
         "nivelTitulo": "Certificado Profesional",
@@ -25,7 +25,7 @@
         "institucion": "Academia ADAMS",
         "ubicacion": "A Coruña, España",
         "fechaInicio": "",
-        "fechaFin": "2023"
+        "fechaFin": 2023
       },
       {
         "nivelTitulo": "Certificado",
@@ -33,9 +33,50 @@
         "institucion": "HACKABOSS",
         "ubicacion": "A Coruña, España",
         "fechaInicio": "",
-        "fechaFin": "2024"
+        "fechaFin": 2024
       }
+    ],
 
+    "conocimientos": [
+      {
+        "materia": "HTML",
+        "nivel": 90
+      },
+      {
+        "materia": "CSS",
+        "nivel": 80
+      },
+      {
+        "materia": "JavaScript",
+        "nivel": 50
+      },
+      {
+        "materia": "MySQL",
+        "nivel": 75
+      },
+      {
+        "materia": "MySQL WorkBench",
+        "nivel": 75
+      },
+      {
+        "materia": "DOM",
+        "nivel": 100
+      },
+      {
+        "materia": "NODE",
+        "nivel": 50
+      }
+    ],
+
+    "idiomas": [
+      {
+        "idioma": "Español",
+        "nivel": 100
+      },
+      {
+        "idioma": "Inglés",
+        "nivel": 50
+      }
     ],
 
     "experienciaLaboral": [

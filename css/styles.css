@@ -52,11 +52,10 @@ h1, h2, p {
 .img-curriculum {
   max-width: 50%;
   height: auto;
-  border-radius: 10px;
-  object-fit: cover; /* Ajustar la imagen dentro del contenedor manteniendo su relación de aspecto */
-  object-position: center; /* Centrar la imagen dentro del contenedor */
-  border: 2px solid #fff; /* Agregar un borde blanco alrededor de la imagen */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agregar una sombra suave */
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 4px solid #111;
 }
 
 .detalle {
@@ -77,7 +76,6 @@ h1, h2, p {
 }
 
 /* Estudios */
-
 .estudios ul{
   list-style: none;
   border: 1px solid;
@@ -94,6 +92,37 @@ h1, h2, p {
 .estudios ul :nth-last-child(1) {
   border-bottom: none;
 }
+
+/* Conocimientos */
+.conocimientos ul li{
+  margin-top: 5px;
+  border-bottom: 0.5px solid;
+  border-radius: 10px auto;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: center;
+  list-style: none;
+}
+
+.conocimientos ul :nth-last-child(1) {
+  border-bottom: none;
+}
+
+/* Idiomas */
+.idiomas ul li{
+  margin-top: 5px;
+  border-bottom: 0.5px solid;
+  border-radius: 10px auto;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: center;
+  list-style: none;
+}
+
+.idiomas ul :nth-last-child(1) {
+  border-bottom: none;
+}
+
 
 /* Experiencia Laboral */
 .experienciaLaboral {
@@ -114,16 +143,33 @@ h1, h2, p {
   text-align: justify;
 }
 
+/* Medidores */
+.medidor {
+  width: 300px;
+  height: 10px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+
+.barra {
+  height: 100%;
+  background-color: #4caf50;
+  border-radius: 10px;
+  width: 0;
+  transition: width 0.5s ease-in-out;
+}
+
 
 /* Estilos para el footer */
 #footer {
   display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
   justify-content: center;
   align-items: center;
   text-align: center;
-  position: fixed;
-  bottom: 0;
-  left: 0;
   width: 100%;
   height: 100vh;
   color: #fff;
@@ -131,6 +177,11 @@ h1, h2, p {
   transition: opacity 0.5s ease;
   background-color: #111;
 }
+
+#footer.show {
+  opacity: 1;
+}
+
 
 .contacto {
   margin: 0 auto;
@@ -201,6 +252,7 @@ textarea {
 .redes-sociales a {
   color: #333;
   margin-right: 10px;
+  font-size: 50px;
 }
 
 .redes-sociales a:hover {
@@ -209,23 +261,30 @@ textarea {
 
 /* Estilo del boton de contacto */
 #toggleFooter {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
   position: fixed;
   top: 20px;
   left: 20px;
-  padding: 10px 20px;
-  font-size: 16px;
-  text-align: center;
-  text-decoration: none;
-  color: #fff;
-  border: 2px solid #4CAF50;
-  border-radius: 50px;
-  background-color: #111;
-  transition: background-color 0.3s, color 0.3s;
-  cursor: pointer;
   z-index: 999;
+  padding: 12px 24px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
 }
 
 #toggleFooter:hover {
-  background-color: #4CAF50;
+  background-color: #444;
+}
+
+#toggleFooter:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
