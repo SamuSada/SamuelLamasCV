@@ -83,17 +83,21 @@ function mostrarDatos(data) {
 }
 
 // Mostrar/Ocultar Footer
-document.getElementById("toggleFooter").addEventListener("click", function() {
-  var footer = document.getElementById("footer");
-  footer.classList.toggle("show");
-
+document.getElementById('toggleFooter').addEventListener('click', function() {
   var body = document.body;
-
-  // Verificar si el footer se está mostrando
-  if (footer.classList.contains("show")) {
+  var footer = document.getElementById('footer');
+  if (footer.style.display === 'none' || footer.style.display === '') {
+    footer.style.display = 'flex';
+    setTimeout(function() {
+      footer.style.opacity = '1';
       body.style.overflowY = "hidden";
+    }, 10);
   } else {
+    footer.style.opacity = '0';
+    setTimeout(function() {
+      footer.style.display = 'none';
       body.style.overflowY = "auto";
+    }, 500);
   }
 });
 

@@ -163,7 +163,7 @@ h1, h2, p {
 
 /* Estilos para el footer */
 #footer {
-  display: flex;
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -177,11 +177,6 @@ h1, h2, p {
   transition: opacity 0.5s ease;
   background-color: #111;
 }
-
-#footer.show {
-  opacity: 1;
-}
-
 
 .contacto {
   margin: 0 auto;
