@@ -9,7 +9,7 @@ El repositorio está organizado de la siguiente manera:
 - `css/styles.css`: Aquí se encuentra el código CSS utilizado para dar estilo al sitio web y hacerlo visualmente atractivo.
 - `images/`: Esta carpeta contiene todas las imágenes utilizadas en el sitio web.
 - `js/script.js`: Si se utilizan scripts JavaScript para funcionalidades adicionales, se encontrarían en esta carpeta.
-- `data/datos.json`: Aqui actualizo y se añaden campos como datos personales, experiencia laboral, estudios, dotes, idiomas, etc. Para una actualización sencilla del Cv.
+- `data/datos.json`: Aquí actualizo y se añaden campos como datos personales, experiencia laboral, estudios, dotes, idiomas, etc. Para una actualización sencilla del Cv.
 
 ## Contacto
 
