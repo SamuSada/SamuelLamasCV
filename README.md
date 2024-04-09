@@ -1,5 +1,3 @@
-Este es el repositorio para mi sitio web de curriculum. Aquí encontrarás el código fuente y los recursos utilizados para construir mi currículum en línea.
-
 ## Acerca del Proyecto
 
 Este proyecto consiste en un sitio web estático desarrollado utilizando HTML, CSS y posiblemente JavaScript. El propósito principal es presentar mi información profesional de una manera clara y atractiva para posibles empleadores o interesados.
