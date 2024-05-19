@@ -50,7 +50,7 @@ h1, h2, p {
 }
 
 .img-curriculum {
-  max-width: 50%;
+  max-width: 30%;
   height: auto;
   border-radius: 50%;
   object-fit: cover;

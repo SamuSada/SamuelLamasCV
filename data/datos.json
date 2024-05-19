@@ -3,21 +3,22 @@
       "nombre": "Samuel Lamas Monje",
       "correoElectronico": "samusada95@gmail.com",
       "telefono": "617300021",
-      "direccion": "Tu Dirección, Ciudad, País"
+      "direccion": "Tu Dirección, Ciudad, País",
+      "enlaces": ""
     },
 
     "sobreMi": {
-      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "descripcion": "Tengo formación como Desarrollador Web Full Stack y soy apasionado por ello. Además, cuento con experiencia en proyectos personales y una base técnica sólida en tecnologías como HTML, CSS y JavaScript.\n\nAunque carezco de experiencia profesional, estoy dedicado a mi desarrollo profesional y actualmente me enfoco en ser un Desarrollador FrontEnd especializado en React.js.\n\nTengo fortalezas como un buen carácter y habilidades interpersonales que me permiten trabajar eficientemente en equipo y establecer relaciones positivas con mis compañeros.\n\nMe motiva el reto de adquirir nuevas habilidades y afrontar proyectos estimulantes que me ayuden a crecer como profesional.\n\nEspero con ansias contribuir al éxito de un equipo o empresa, a la vez que continúo desarrollando mis habilidades y experiencia en el campo del desarrollo web."
     },
 
     "estudios": [
       {
-        "nivelTitulo": "FP Superior",
-        "titulo": "Animación 3D y Creación de Videojuegos",
-        "institucion": "CIFP Imaxe e Son",
+        "nivelTitulo": "Certificado",
+        "titulo": "Programación Web - Full Stack",
+        "institucion": "HACKABOSS",
         "ubicacion": "A Coruña, España",
         "fechaInicio": "",
-        "fechaFin": 2021
+        "fechaFin": 2024
       },
       {
         "nivelTitulo": "Certificado Profesional",
@@ -28,27 +29,31 @@
         "fechaFin": 2023
       },
       {
-        "nivelTitulo": "Certificado",
-        "titulo": "Programación Web - Full Stack",
-        "institucion": "HACKABOSS",
+        "nivelTitulo": "FP Superior",
+        "titulo": "Animación 3D y Creación de Videojuegos",
+        "institucion": "CIFP Imaxe e Son",
         "ubicacion": "A Coruña, España",
         "fechaInicio": "",
-        "fechaFin": 2024
+        "fechaFin": 2021
       }
     ],
 
     "conocimientos": [
       {
         "materia": "HTML",
-        "nivel": 90
+        "nivel": 100
       },
       {
         "materia": "CSS",
-        "nivel": 80
+        "nivel": 100
       },
       {
         "materia": "JavaScript",
-        "nivel": 50
+        "nivel": 90
+      },
+      {
+        "materia": "React.js",
+        "nivel": 90
       },
       {
         "materia": "MySQL",
@@ -57,14 +62,6 @@
       {
         "materia": "MySQL WorkBench",
         "nivel": 75
-      },
-      {
-        "materia": "DOM",
-        "nivel": 100
-      },
-      {
-        "materia": "NODE",
-        "nivel": 50
       }
     ],
 
